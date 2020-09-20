@@ -11,7 +11,7 @@ chrome.contextMenus.create({
 	//This is the event handler
 	'onclick': async (context) => {
 		const name = context.selectionText;
-		const response = await fetch(`https://www.omdbapi.com/?t=${name}&apikey=e48e70b4`)
+		const response = await fetch(`https://www.omdbapi.com/?t=${name}&apikey=83188c80`)
 		const {
 			Title,
 			Year,
